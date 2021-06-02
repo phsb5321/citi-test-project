@@ -9,7 +9,7 @@ const { MongooseAdapter: Adapter } = require('@keystonejs/adapter-mongoose');
 const PROJECT_NAME = 'citi-test';
 const adapterConfig = { mongoUri: 'mongodb+srv://dbUser:8!3n9PbhSkir8fp@cluster0.ze5qa.mongodb.net/test?retryWrites=true&w=majority' };
 
-const TransactionSchema = require('./models/transactions');
+const TransactionSchema = require('./models/Transactions');
 
 const keystone = new Keystone({
   adapter: new Adapter(adapterConfig),
