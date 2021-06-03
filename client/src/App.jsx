@@ -1,10 +1,8 @@
-import {
-  PostList,
-} from './components';
+import Routes from './routes';
 
 function App() {
   return (
-    <PostList />
+    <Routes/>
   );
 }
 

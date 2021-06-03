@@ -1,1 +1,4 @@
-export { default as PostList } from './PostList';
+import {MainPage} from './Pages';
+export {
+    MainPage
+}
