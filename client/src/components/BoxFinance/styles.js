@@ -11,8 +11,10 @@ export const Container = styled.header`
     
     background: var(--MAIN-SHAPE);
 
-    &.highlight-box-finance{
-        background: var(--IN-COLOR);
+    &.highlight{
+
+        &.green{ background: var(--IN-COLOR); }
+        &.red{ background: var(--OUT-COLOR) ;}
 
         div, h1 {
             color: var(--MAIN-SHAPE);

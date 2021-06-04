@@ -11,7 +11,7 @@ export const GlobalStyle = createGlobalStyle`
         --TITLE-COLOR: #363F5F;
         --TEXT-COLOR: #969CB3;
         --MAIN-SHAPE: #FFFFFF;
-        --OUT-COLOR: ##E62E4D;
+        --OUT-COLOR: #E62E4D;
         --IN-COLOR: #33CC95;   
     }
 
