@@ -2,7 +2,7 @@ import { Container } from './styles';
 import React from 'react'
 
 export function BoxFinance({ title, icon, value, isHightlight }) {
-    const hightlightColor = (value > 0) ? "gree" : "red";
+    const hightlightColor = (value > 0) ? "green" : "red";
 
     return (
         <Container className={isHightlight ? `highlight ${hightlightColor}` : ""}>
