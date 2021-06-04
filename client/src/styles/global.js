@@ -1,7 +1,6 @@
 import {
     createGlobalStyle
-} from 'styled-components' 
-
+} from 'styled-components'
 
 export const GlobalStyle = createGlobalStyle`
     :root {
