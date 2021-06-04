@@ -1,10 +1,10 @@
 import { BrowserRouter, Route } from 'react-router-dom';
-import {MainPage} from './components';
+import {Home} from './pages/Home';
 
 export default function Routes(){
     return(
         <BrowserRouter>
-            <Route path = '/' exact component={MainPage}/>
+            <Route path = '/' exact component={Home}/>
         </BrowserRouter>
     );
 }
