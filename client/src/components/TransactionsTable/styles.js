@@ -24,17 +24,14 @@ export const Container = styled.table`
             border-radius:0.25rem;
             background-color: var(--MAIN-SHAPE);
 
-            &.deposit{
-                color:var(--IN-COLOR);
-            }
-
-            &.withdraw{
-                color:var(--OUT-COLOR);
-            }
+            &.in{ color:var(--IN-COLOR); }
+            &.out{ color:var(--OUT-COLOR); }
         }
 
         td:first-of-type{
             color:var(--TITLE-COLOR);
         }
+
+
         
 `

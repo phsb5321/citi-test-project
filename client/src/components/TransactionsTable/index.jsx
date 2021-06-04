@@ -19,7 +19,7 @@ export function TransactionsTable({ transactions }) {
 
                             <td>{e.title}</td>
 
-                            <td className={`${e.debit ? "withdraw" : "deposit"}`}>
+                            <td className={`${e.debit ? "in" : "out"}`}>
                                 {
                                     new Intl.NumberFormat("pt-BR", {
                                         style: "currency",
