@@ -24,7 +24,7 @@ export function Home() {
         <>
             <GlobalStyle />
             <Header />
-            <Carousel />
+            <Carousel transactions={transactions} />
             <TransactionsTable transactions={transactions} />
         </>
 
